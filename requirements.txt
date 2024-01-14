@@ -6,6 +6,7 @@ tornado
 pystan==2.19.1.1
 prophet
 mlflow
-numpy
+numpy==1.21
 scikit-learn
-tensorflow>=2.0,<2.5
+# tensorflow>=2.0,<2.5
+tensorflow==2.8
