@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export FLT_DEBUG_MODE=True
+export FLT_PROM_URL=http://victoriametrics:8428
+export FLT_RETRAINING_INTERVAL_MINUTES=5
+export FLT_METRICS_LIST=up
+export APP_FILE=app.py
+export FLT_DATA_START_TIME=1d
+export FLT_ROLLING_TRAINING_WINDOW_SIZE=7d
+
+python $APP_FILE
